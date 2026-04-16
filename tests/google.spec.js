@@ -9,4 +9,7 @@ const title=await page.title();
 console.log("Title: " + title);
 expect(title).toBe("Google");
 await expect(page).toHaveTitle("Google");
+await expect(page).toHaveTitle(/Google/);
+await expect(page).toHaveTitle(/google/i);
+await expect(page).toHaveTitle("Yahoo");
 })
