@@ -2,3 +2,16 @@ npm init playwright@latest
 npx playwright test 
 npx playwright test --headed
 npx playwright show-report 
+
+
+
+
+
+
+--GIT:
+git init
+git add .
+git commit -am 'First Commit'
+git remote add origin https://github.com/pmalakar09/Playwright.git
+git remote -v
+git push origin main
